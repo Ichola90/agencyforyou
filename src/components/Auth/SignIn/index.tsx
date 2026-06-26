@@ -55,17 +55,17 @@ const Signin = ({signInOpen}:{signInOpen?:any}) => {
 
   return (
     <>
-      <div className="mb-10 text-center mx-auto inline-block max-w-[160px]">
+      <div className="mb-10 text-center mx-auto inline-block max-w-[80px]">
         <Logo />
       </div>
 
-      <SocialSignIn />
+      {/* <SocialSignIn /> */}
 
       <span className="z-1 relative my-8 block text-center">
         <span className="-z-1 absolute left-0 top-1/2 block h-px w-full bg-BorderLine dark:bg-dark_border"></span>
-        <span className="text-body-secondary relative z-10 inline-block bg-white px-3 text-base dark:bg-secondary">
+        {/* <span className="text-body-secondary relative z-10 inline-block bg-white px-3 text-base dark:bg-secondary">
           OR
-        </span>
+        </span> */}
         <Toaster />
       </span>
 

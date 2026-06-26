@@ -8,12 +8,12 @@ const SocialSignUp = () => {
             <div className="flex gap-4">
                 <button
                     onClick={() => signIn("google")}
-                    className="flex w-full items-center justify-center gap-2.5 rounded-lg border border-solid hover:bg-stroke border-BorderLine p-3.5 text-dark duration-200 ease-in  dark:border-dark_border dark:text-white dark:hover:bg-primary/10 hover:bg-primary/10"
+                    className="flex w-full items-center justify-center gap-2.5 rounded-lg border border-solid hover:bg-stroke border-BorderLine py-2 text-dark duration-200 ease-in  dark:border-dark_border dark:text-white dark:hover:bg-primary/10 hover:bg-primary/10"
                 >
                     Sign Up
                     <svg
                         width="23"
-                        height="22"
+                        height="16"
                         viewBox="0 0 23 22"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const SocialSignUp = () => {
                             <clipPath id="clip0_709_8846">
                                 <rect
                                     width="22"
-                                    height="22"
+                                    height="16"
                                     fill="white"
                                     transform="translate(0.5)"
                                 />

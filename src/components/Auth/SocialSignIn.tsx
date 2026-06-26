@@ -57,12 +57,12 @@ const SocialSignIn = () => {
 
         <button
           onClick={handleGithubSignIn}
-          className="flex w-full items-center justify-center gap-2.5 rounded-lg border border-solid  border-BorderLine dark:border-dark_border p-3.5 text-dark duration-200 ease-in  dark:text-white dark:hover:bg-primary/10 hover:bg-primary/10"
+          className="flex w-full items-center justify-center gap-2.5 rounded-lg border border-solid  border-BorderLine dark:border-dark_border  text-dark duration-200 ease-in  dark:text-white dark:hover:bg-primary/10 hover:bg-primary/10"
         >
           Sign In
           <svg
             width="22"
-            height="22"
+            height="16"
             viewBox="0 0 22 22"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

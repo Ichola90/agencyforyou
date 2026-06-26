@@ -50,18 +50,18 @@ const SignUp = ({signUpOpen}:{signUpOpen?:any}) => {
 
   return (
     <>
-      <div className="mb-10 text-center mx-auto inline-block max-w-[160px]">
+      <div className="mb-10 text-center mx-auto inline-block max-w-[60px]">
         <Logo />
       </div>
 
-      <SocialSignUp />
+      {/* <SocialSignUp /> */}
 
-      <span className="z-1 relative my-8 block text-center">
+      {/* <span className="z-1 relative my-8 block text-center">
         <span className="-z-1 absolute left-0 top-1/2 block h-px w-full bg-BorderLine dark:bg-dark_border"></span>
         <span className="text-body-secondary relative z-10 inline-block bg-white dark:bg-darklight px-3 text-base dark:bg-dark">
           OR
         </span>
-      </span>
+      </span> */}
 
       <form onSubmit={handleSubmit}>
         <div className="mb-[22px]">
